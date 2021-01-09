@@ -1,0 +1,36 @@
+@import '../../../assets/scss/main.scss';
+
+.content-fixed {
+    //background: blue;
+    .stock-sidebar {
+        //background: red;
+       
+    }
+}
+
+.content-scroll {
+    height: 1000px;
+
+    .content-section {
+        width: 100%;
+        height: 400px;
+    }
+
+    .section-name {
+        z-index: 1000;
+        padding: 56px 0px 10px 0px;
+        background: white;
+        border-bottom: 1px solid #cccc;
+        h4 {
+            position: fixed;
+            top: 56px;
+            background: white;
+            padding: 24px 0px 10px 0px;
+        }
+    }
+}
+
+.stock-sidebar{
+    position: fixed;
+    top: 72px;
+}

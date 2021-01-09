@@ -1,0 +1,14 @@
+@import './base/typography.scss';
+@import './components/input.scss';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Prompt;
+}
+
+.temstock-content{
+    margin-top: 56px;
+}
