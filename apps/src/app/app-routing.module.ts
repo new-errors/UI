@@ -7,7 +7,7 @@ import { PortfolioComponent} from './pages/portfolio/portfolio.component';
 
 const routes: Routes = [
   {path: 'nav-bar', component: NavBarComponent},
-  {path: 'all-stock', component: NavBarComponent},
+  {path: 'all-stock', component: AllStockComponent},
   {path: 'stock', component: StockComponent},
   {path: 'portfolio', component: PortfolioComponent}
 ];
