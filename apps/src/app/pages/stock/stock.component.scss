@@ -1,36 +1,36 @@
 @import '../../../assets/scss/main.scss';
 
-.content-fixed {
-    //background: blue;
-    .stock-sidebar {
-        //background: red;
-       
-    }
+.stock-content {
+    padding: 56px 0 0 0;
 }
 
-.content-scroll {
-    height: 1000px;
-
-    .content-section {
-        width: 100%;
-        height: 400px;
-    }
-
-    .section-name {
-        z-index: 1000;
-        padding: 56px 0px 10px 0px;
-        background: white;
-        border-bottom: 1px solid #cccc;
-        h4 {
-            position: fixed;
-            top: 56px;
-            background: white;
-            padding: 24px 0px 10px 0px;
+.section-nav {
+    //background: blue;
+    padding: 0;
+    .section-nav-fixed {
+        top: 56px;
+        .section-nav-link{
+            //background: red;
         }
     }
 }
 
-.stock-sidebar{
-    position: fixed;
-    top: 72px;
+.section-content {
+    .section-info {
+        background: red;
+        margin: 0 0 10px 0;
+        height: 400px;
+    }
+    
+    .section-name {
+        background: yellow;
+        height: 56px;
+        padding: 10px;
+        margin: 0;
+        top: 56px;
+        
+        
+    }
 }
+
+
