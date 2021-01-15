@@ -1,2 +1,2 @@
-# Cypress
-Cypress Automate Test
+# UI
+UI Automate Test
